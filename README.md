@@ -2,4 +2,6 @@
 
 **Just a few desing notes** 
 inspo: https://www.moholoholo.co.za/                                      
-My header The full screen so scroll down onece chaned page.
+My header is the full screen so scroll down.
+
+This is a public repo copy of my private repro this code was in for am Assessment

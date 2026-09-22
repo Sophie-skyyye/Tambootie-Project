@@ -1,0 +1,166 @@
+*{
+    margin: 0; /* Remove default margin from all elements */
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* --------------------------Left here as more pages you this CSS------------------------------------ */
+
+.offers{
+    width: 80%; /* Set width to 80% of the parent container */
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600; /* Set font weight to bold */
+}
+    
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300; /* Set font weight to light */
+    line-height: 22px; /* Set line height to 22px */
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collums{
+    flex-basis: 31%; /* Set the main size */
+    background: #fae18f;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600; /* Set font weight to bold */
+    margin: 10px 0;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+.location{
+    width: 80%;
+    margin: auto; /* Center align the container horizontally */
+    text-align: center;
+    padding: 50px;
+}
+
+.location-col{
+
+    flex-basis: 60%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.location-col img{
+    width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
+
+.activities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.activities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.activities-col img{
+    width: 100%;
+    border-radius: 10px; /* Round the corners of the images */
+}
+
+.activities-col p{
+    padding: 0;
+}
+
+.activities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.contact{
+    text-align: center;
+}
+
+.Contact-button{
+    display: inline-block; /* Make the button an inline block element */
+    text-decoration: none;  /* Remove underline from text */
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Contact-button:hover{
+    border: 1px solid #fae18f;
+    background: #fae18f;
+    transition: 1s; /* Add transition effect */
+}
+
+
+@media (max-width: 800px) {
+    .header{
+        min-height: 70vh;
+    }
+
+    .textbox h1 {
+        font-size: 20px; /* Reduce font size for h1 elements */
+    }
+
+    .textbox p {
+        font-size: 10px; /* Reduce font size for paragraphs */
+    }
+
+    .links {
+        padding: 1% 2%; /* Adjust padding for list items */
+    }
+
+    .links ul li {
+        padding: 1px 1px; 
+    }
+
+    .Contact-button,
+    .Vist-button {
+        padding: 10px 20px; 
+        font-size: 12px; /* Reduce font size for buttons */
+    }
+
+    .container {
+        flex-direction: column; /* Stack flex items vertically */
+    }
+
+    .row{
+        flex-direction: column; /* Stack flex items vertically */
+    }
+}
+
